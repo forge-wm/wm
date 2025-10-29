@@ -57,3 +57,8 @@ dkms.conf
 #The 'bin' directory where the binaries are generated.
 
 bin/
+
+#Vim swapfiles
+
+*.swp
+*.swo

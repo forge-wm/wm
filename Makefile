@@ -28,11 +28,7 @@ LDFLAGS := -lpthread -lX11
 .PHONY: all
 
 all: $(OUT)
-	@echo "Build successful :) , executing..."
-	@echo "//////////////////////////"
-	@echo "--- program output below:"
-	@echo "Executing $(OUT) NOW."
-	@$(OUT)
+	@echo "Build successful :)"
 
 # Link step
 

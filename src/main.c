@@ -6,7 +6,7 @@ Window root; //For seeing which window is the root window.
 
 int main(void) { //Don't complain about code inside main.
 	dpy = XOpenDisplay(NULL);
-	if (dpy == null) {
+	if (dpy == 0) {
 		wm_panic("Unable to open a display to connect to X, see stacktrace.");
 	}
 	
